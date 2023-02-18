@@ -1,1 +1,1 @@
-# rsschool-plants
+https://muju1ce.github.io/Plants/
