@@ -1,1 +1,1 @@
-https://muju1ce.github.io/Plants/
+https://muju1ce.github.io/rsschool-plants/
