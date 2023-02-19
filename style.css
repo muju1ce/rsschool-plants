@@ -190,18 +190,20 @@ main {
     text-indent: 56px;
 }
 
-.border-box {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    border: 2px solid #E06733;
-    border-radius: 10px;
-    padding: 0px;
-    text-align: center;
+.btn-welcome {
+    display: inline-block;
     width: 157px;
     height: 44px;
+    border: 2px solid #E06733;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    font-family: 'Inter';
+    font-weight: 400;
+    border-radius: 10px;
+    padding: 10px;
+    color: #000000;
+    background-color: #EDF2EC;
 }
 
 .border-link {
@@ -209,17 +211,9 @@ main {
     color: black;
 }
 
-
-@media (min-width: 1232px) {
-    .border-box:hover {
-        color: white;
-    }
-    .border-box:hover {
-        border-color: #E06733;
-        background-color: #E06733;
-        cursor: pointer;
-        transition: all 0.5s;
-    }
+a.btn-welcome:hover {
+    background-color: #E06733;
+    color: white;
 }
 
 /* END DEPLOY SECTION HOME*/
@@ -294,7 +288,8 @@ main {
     flex-direction: column;
     width: 1220px;
     height: 1139px;
-    transition: all 0.5s;
+    transition: all 0.5s; 
+    margin-bottom: 5%;
 }
 
 .service-nav {
@@ -322,29 +317,28 @@ main {
     
 }
 
-.button {
+.btn-service {
+    display: inline-block;
+    width: 161px;
+    height: 50px;
+    border: 1px solid #E06733;
+    border-radius: 10px;
+    text-align: center;
     font-family: 'Inika';
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 26px;
-    border: 1px solid #E06733;
-    border-radius: 10px;
-    padding: 10px;
     text-align: center;
-    width: 161px;
-    height: 50px;
+    padding: 10px;
+    text-decoration: none;
     color: #E06733;
-    margin-right: 38px;
-}
+    background-color: #EDF2EC;
+} 
 
-.service-button .button:last-of-type {
-    margin-right: 10px;
-}
-
-.button:hover {
+a.btn-service:hover {
     background-color: #E06733;
-    color:white;
+    color: #FFFFFF;
 }
 
 /* Content */
@@ -506,7 +500,7 @@ main {
     bottom: -76px;
 }
 
-.button-service {
+.btn-contactus {
     font-family: 'Inika';
     font-style: normal;
     font-weight: 700;
@@ -522,7 +516,7 @@ main {
     background-color: white;
 }
 
-.button-service:hover {
+.btn-contactus:hover {
     background-color: #E06733;
     color: white;
 }
